@@ -160,7 +160,7 @@ instance_groups:
               # type: cron
               # properties:
               #  # A crontab spec, in the form of minute, hour, day of month, month, and day of week
-              #  spec: * 12 * * *
+              #  spec: "* 12 * * *"
 
     networks:
       - name: default
